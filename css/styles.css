@@ -137,8 +137,13 @@ img {
 }
 
 .group-contact:hover,
-.group-contact:focus  {
+.group-contact:focus {
   color: var(--accent-txt-color);
+}
+
+.group-contact:hover .contact-icon,
+.group-contact:focus .contact-icon {
+ fill: var(--accent-txt-color);
 }
 
 .header-link {
@@ -148,11 +153,6 @@ img {
 .contact-icon {
   fill:var(--paragraph-txt-color);
   margin-right: 10px;
-}
-
-.contact-icon:hover,
-.contact-icon:focus {
-fill: var(--accent-txt-color);
 }
 
 
@@ -214,13 +214,13 @@ fill: var(--accent-txt-color);
 
 /* Особнности  */
 
+
 .about {
-  padding: 94px 0;
+  padding-top: 94px ;
 }
 
 .about-list {
   display: flex;
-margin-bottom: 94px;
 }
 
 .about-item {
@@ -247,14 +247,27 @@ margin-bottom: 94px;
   letter-spacing: 0.03em;
   color: var(--icon-color);
 }
-
+/* 
 .about-item{
   border-radius: 4px;
   background-color: #F5F4FA;
   width: 270px;
   height: 120px;
-}
+} */
 
+.about-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border-radius: 4px;
+      background-color: #F5F4FA;
+      margin-bottom: 30px;
+      padding: 25px 100px;
+    width: 270px;
+    height: 120px;
+    
+
+}
 
 /* Чем мы занимаемся */
 
