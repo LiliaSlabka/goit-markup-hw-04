@@ -356,7 +356,7 @@ img {
   justify-content: center;
   width: 44px;
   height: 44px;
-  background-color: white;
+  background-color:white;
   border-radius: 50%;
   color: AFB1B8;
 }
@@ -365,14 +365,14 @@ img {
   fill: var(--paragraph-txt-color);
 }
 
-.social-media-icon:hover,
-.social-media-icon:focus {
-  fill: var(--secondary-txt-color);
-}
-
-.social-link:hover,
-.social-link:focus {
+ .social-link:hover ,
+ .social-link:focus  {
   background-color: var(--accent-txt-color);
+ }
+
+.social-link:hover .social-media-icon,
+.social-link:focus .social-media-icon {
+  fill: white
 }
 
 /* Постоянные киенты */
@@ -421,8 +421,8 @@ img {
   fill: var(--paragraph-txt-color);
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.client-link:hover .clients-icon,
+.client-link:focus .clients-icon {
   fill: var(--accent-txt-color);
 }
 
